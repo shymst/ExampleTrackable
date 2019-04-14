@@ -17,6 +17,8 @@
 		9366D779226314DB0038D806 /* FavoritesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9366D777226314DB0038D806 /* FavoritesViewController.xib */; };
 		93909F882263186100181215 /* NSObject+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93909F872263186100181215 /* NSObject+.swift */; };
 		93909F8A226321FC00181215 /* UIViewController+trackable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93909F89226321FC00181215 /* UIViewController+trackable.swift */; };
+		93909F8C2263335A00181215 /* AnalyticsEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93909F8B2263335A00181215 /* AnalyticsEvent.swift */; };
+		93909F8E2263336B00181215 /* AnalyticsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93909F8D2263336B00181215 /* AnalyticsScreen.swift */; };
 		93C34A302262FB3B0089C08F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C34A2F2262FB3B0089C08F /* AppDelegate.swift */; };
 		93C34A372262FB3C0089C08F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93C34A362262FB3C0089C08F /* Assets.xcassets */; };
 		93C34A3A2262FB3C0089C08F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93C34A382262FB3C0089C08F /* LaunchScreen.storyboard */; };
@@ -33,6 +35,8 @@
 		9366D777226314DB0038D806 /* FavoritesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavoritesViewController.xib; sourceTree = "<group>"; };
 		93909F872263186100181215 /* NSObject+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+.swift"; sourceTree = "<group>"; };
 		93909F89226321FC00181215 /* UIViewController+trackable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+trackable.swift"; sourceTree = "<group>"; };
+		93909F8B2263335A00181215 /* AnalyticsEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsEvent.swift; sourceTree = "<group>"; };
+		93909F8D2263336B00181215 /* AnalyticsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsScreen.swift; sourceTree = "<group>"; };
 		93C34A2C2262FB3B0089C08F /* ExampleTrackable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleTrackable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93C34A2F2262FB3B0089C08F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		93C34A362262FB3C0089C08F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -56,6 +60,8 @@
 			children = (
 				93909F872263186100181215 /* NSObject+.swift */,
 				93909F89226321FC00181215 /* UIViewController+trackable.swift */,
+				93909F8B2263335A00181215 /* AnalyticsEvent.swift */,
+				93909F8D2263336B00181215 /* AnalyticsScreen.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -171,11 +177,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				93C34A302262FB3B0089C08F /* AppDelegate.swift in Sources */,
+				93909F8C2263335A00181215 /* AnalyticsEvent.swift in Sources */,
 				93909F8A226321FC00181215 /* UIViewController+trackable.swift in Sources */,
 				9366D774226314AB0038D806 /* DramaDetailViewController.swift in Sources */,
 				9366D7702263149B0038D806 /* SeriesListViewController.swift in Sources */,
 				93909F882263186100181215 /* NSObject+.swift in Sources */,
 				9366D76C226313220038D806 /* MostViewedViewController.swift in Sources */,
+				93909F8E2263336B00181215 /* AnalyticsScreen.swift in Sources */,
 				9366D778226314DB0038D806 /* FavoritesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

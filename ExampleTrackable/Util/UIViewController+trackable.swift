@@ -6,8 +6,14 @@
 //  Copyright © 2019 Shunya Yamashita. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
-//extension UIViewController {
-//    func
-//}
+extension UIViewController {
+    func trackScreen(_ screen: AnalyticsScreen) {
+        print("trackScreen: \(screen.name.adobe), \(screen.name.google)")
+    }
+    
+    func trackEvent(_ event: AnalyticsEvent) {
+        print("trackEvent: \(event.name), \(event.data)")
+    }
+}

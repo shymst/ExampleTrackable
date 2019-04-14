@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MostViewedViewController" customModule="ExampleAnalytics" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MostViewedViewController" customModule="ExampleTrackable" customModuleProvider="target">
             <connections>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
@@ -33,11 +33,20 @@
                         <action selector="tappedSeriesListButton:" destination="-1" eventType="touchUpInside" id="dcc-4Q-gLd"/>
                     </connections>
                 </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Anm-Df-zdI">
+                    <rect key="frame" x="164" y="273" width="47" height="30"/>
+                    <state key="normal" title="Reload"/>
+                    <connections>
+                        <action selector="tappedReloadButton:" destination="-1" eventType="touchUpInside" id="LuA-Er-9EJ"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
+                <constraint firstItem="Anm-Df-zdI" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="2Bp-lW-4qD"/>
                 <constraint firstItem="fjS-PS-NRR" firstAttribute="top" secondItem="iuv-Gs-0D5" secondAttribute="bottom" constant="20" id="HTo-l3-nrx"/>
                 <constraint firstItem="fjS-PS-NRR" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="LLP-bM-faI"/>
+                <constraint firstItem="iuv-Gs-0D5" firstAttribute="top" secondItem="Anm-Df-zdI" secondAttribute="bottom" constant="20" id="d8i-uK-60n"/>
                 <constraint firstItem="iuv-Gs-0D5" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="gey-mN-Ee9"/>
                 <constraint firstItem="iuv-Gs-0D5" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="yLY-8R-FMR"/>
             </constraints>
